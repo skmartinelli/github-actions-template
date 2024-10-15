@@ -2,7 +2,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '23 23 * * *' # At 4:23 PM every day in UTC
+    - cron: '30 23 * * *' # At 4:25 PM every day in UTC
 jobs:
   build:
     runs-on: ubuntu-latest
